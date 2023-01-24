@@ -30,6 +30,7 @@
 }
 .container-item img{
  width: 110%;
+ transition: all -1s;
  /* animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; */
 }
 @keyframes shake {
@@ -218,6 +219,12 @@ h3{
 .color-col:hover{
  scale: 1.1;
 }
-.main-cont{
- background-image: linear-gradient(196deg, #f1a9a9, #e66767);
+/* #main{
+ background: linear-gradient(196deg, #f1a9a9, #e66767);
+} */
+.animate{
+  animation : shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+#main{
+  transition: all 5000ms;
 }
