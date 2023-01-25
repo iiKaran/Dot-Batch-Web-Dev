@@ -130,7 +130,10 @@ font-weight: 900px;
  margin-bottom: 26px;
  /* border: 2px solid red; */
  position: relative;
- transform: translateY(28px);
+ /* transition: all 4s; */
+ /* transform: translateY(28px);
+  */
+  /* top: 30px; */
  color: #fff;
  transition: all 650ms;
 /* visibility: hidden; */
@@ -139,6 +142,7 @@ animation-delay: 0s;
 animation-timing-function: linear;
 animation-duration: 4s;
 animation-iteration-count: infinite; */
+min-height: 130px;
 }
 h3{
  margin-top: 14px;
@@ -227,4 +231,13 @@ h3{
 }
 #main{
   transition: all 5000ms;
+}
+#desc{
+  transition: all .3s;
+}
+#det{
+  transition: all .3s;
+}
+#text{
+  line-height: 23px;
 }

@@ -43,6 +43,23 @@ changeBtnArr.forEach(element => {
   })
  
 });
+text.innerText= "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, impedit exercitationem! Cum mollitia eius esse, natus ipsa earum harum soluta illo obcaecati dolore consequatur. Corporis hic totam nemo error ipsam.";
 chair.addEventListener("animationend",()=>{
  chair.classList.remove("animate");
+})
+det.style.opacity ="0.5";
+det= document.getElementById("det"); 
+des= document.getElementById("desc"); 
+text = document.getElementById("text");
+det.addEventListener("click",()=>{
+  des.style.opacity ="0.5";
+  det.style.opacity ="1";
+  text.innerText = "Lorem 2  ipsum dolor sit amet consectetur adipisicing elit. Id distinctio facilis quae minus aspernatur autem minima ad impedit, nisi voluptatibus numquam consectetur expedita reiciendis accusamus nostrum adipisci quibusdam dolore vero."
+})
+des.addEventListener("click",()=>{
+  det.style.opacity ="0.5";
+  des.style.opacity ="1";
+    // des.style.color = "red";
+    text.innerText= "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, impedit exercitationem! Cum mollitia eius esse, natus ipsa earum harum soluta illo obcaecati dolore consequatur. Corporis hic totam nemo error ipsam.";
+  // console.log(des,det);
 })
